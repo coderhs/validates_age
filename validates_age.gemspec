@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'validates_age'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.date        = '2013-03-08'
   s.summary     = "A Validator to validate DOB"
   s.description = "A Validator to validate the age of a person, useful during signup"
@@ -11,5 +11,5 @@ Gem::Specification.new do |s|
                   "rails/init.rb"]
   s.require_paths = ["lib"]
   s.homepage    =
-    'http://rubygems.org/gems/hola'
+    'http://rubykitchen.in'
 end
