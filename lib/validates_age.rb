@@ -6,11 +6,11 @@ module Rubykitchen
 			class AgeValidator < ActiveModel::EachValidator
 				def validate_each(record, attribute, value)
           if value > Date.today  
-            record.errors[attribute] << "According to the Age provided the person is not born"
-          elsif ((Date.today -value) < 13)
-            record.errors[attribute] << "The person is not old enough to join this website"
-          elsif ((Date.today -value) > 130)
-            record.errors[attribute] << "The age entered is unrealestic"
+            record.errors[attribute] << "As per the DOB you are Not yet Born"
+          elsif ((Date.today - value) < 13)
+            record.errors[attribute] << "Your age is less than 13"
+          elsif ((Date.today - value) > 120)
+            record.errors[attribute] << "Your age is older than the oldrst Human Being"
           end
 				end
 			end
