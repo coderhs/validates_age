@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors    = ["Harisankar P S"]
   s.email       = ['mailme@hsps.in']
   s.files       = [
-                  "lib/validats_age.rb",
+                  "lib/validates_age.rb",
                   "rails/init.rb"]
   s.require_paths = ["lib"]
   s.homepage    =
