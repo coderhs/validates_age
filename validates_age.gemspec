@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'Validates Age'
+  s.name        = 'validates_age'
   s.version     = '0.1.0'
   s.date        = '2013-03-08'
   s.summary     = "A Validator to validate DOB"
